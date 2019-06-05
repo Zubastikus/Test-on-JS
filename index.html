@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title></title>
+</head>
+<body>
+
+	<div class="container quest1" style="">
+		<div>
+			<h2>Что такое товар?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet1_1">продукт труда, произведённый для продажи</div>
+		<div class="border py-3 px-3 otvet1_2">продукт труда, произведённый для покупки</div>
+		<div class="border py-3 px-3 otvet1_3">продукт труда, произведённый для купле-продажи</div>
+	</div> 
+
+	<div class="container quest2" style="display: none;">
+		<div>
+			<h2>Райан...</h2>
+		</div>
+		<div class="border py-3 px-3 otvet2_1">Рейнолдс</div>
+		<div class="border py-3 px-3 otvet2_2">кто? :/</div>
+		<div class="border py-3 px-3 otvet2_3">Гослинг</div>
+	</div>
+
+	<div class="container quest3" style="display: none;">
+		<div>
+			<h2>В любой непонятной ситуации...</h2>
+		</div>
+		<div class="border py-3 px-3 otvet3_1">Забей</div>
+		<div class="border py-3 px-3 otvet3_2">Попробуй понять</div>
+		<div class="border py-3 px-3 otvet3_3">Третий лишний</div>
+	</div>
+
+	<div class="container quest4" style="display: none;">
+		<div>
+			<h2>Один скажет: "Кодзима", миллионы ответят: "..."</h2>
+		</div>
+		<div class="border py-3 px-3 otvet4_1">Хидео</div>
+		<div class="border py-3 px-3 otvet4_2">Гений</div>
+		<div class="border py-3 px-3 otvet4_3">Вернись в Конами >:0</div>
+	</div> 
+
+	<div class="container quest5" style="display: none;">
+		<div>
+			<h2>Where Walter White?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet5_1">
+			<img src="shoun.jpg">
+		</div>
+		<div class="border py-3 px-3 otvet5_2">
+			<img src="goslya.jpg">
+		</div>
+		<div class="border py-3 px-3 otvet5_3">
+			<img src="walter.jpg">
+		</div>
+	</div> 
+
+	<div class="container quest6" style="display: none;">
+		<div>
+			<h2>Какая из этих песен была включена в плейлист Scott Pilgrim vs the World?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet5_1">
+		  	<audio controls>
+			    <source src="Linkin Park — What Ive Done.mp3" type="audio/ogg; codecs=vorbis">
+			    <source src="Linkin Park — What Ive Done.mp3" type="audio/mpeg">
+		  	</audio>
+		</div>
+		<div class="border py-3 px-3 otvet5_2">
+		  	<audio controls>
+			    <source src="fall-out-boy-fourth-of-july.mp3" type="audio/ogg; codecs=vorbis">
+			    <source src="fall-out-boy-fourth-of-july.mp3" type="audio/mpeg">
+		  	</audio>
+		</div>
+		<div class="border py-3 px-3 otvet5_3">
+			<audio controls>
+			    <source src="Sex Bob-Omb – We Are Sex Bob-Omb.mp3" type="audio/ogg; codecs=vorbis">
+			    <source src="Sex Bob-Omb – We Are Sex Bob-Omb.mp3" type="audio/mpeg">
+		  	</audio>
+		</div>
+	</div> 
+
+	<h1 class="end" style="display: none;">Это всё что я сделал и Грац, ты всё прошёл</h1>
+		
+		<script type="text/javascript">
+			document.querySelector(".otvet1_1").onclick = function(){
+				alert("Yes")
+				document.querySelector(".quest1").style.display = "none"
+				document.querySelector(".quest2").style.display = "block"
+			}
+
+			document.querySelector(".otvet1_2").onclick = function(){
+				alert("Yesn`t")
+			}
+			document.querySelector(".otvet1_3").onclick = function(){
+				alert("Yesn`t")
+			}
+
+			document.querySelector(".otvet2_1").onclick = function(){
+				alert("Ну, тоже сойдёт")
+				document.querySelector(".quest2").style.display = "none"
+				document.querySelector(".quest3").style.display = "block"
+			}
+
+			document.querySelector(".otvet2_2").onclick = function(){
+				alert("Не знаешб!???")
+			}
+			document.querySelector(".otvet2_3").onclick = function(){
+				alert("Дааааааа")
+				document.querySelector(".quest2").style.display = "none"
+				document.querySelector(".quest3").style.display = "block"
+			}
+
+			document.querySelector(".otvet3_1").onclick = function(){
+				alert("seriously?")
+			}
+			document.querySelector(".otvet3_2").onclick = function(){
+				alert("угу")
+				document.querySelector(".quest3").style.display = "none"
+				document.querySelector(".quest4").style.display = "block"
+			}
+			document.querySelector(".otvet3_3").onclick = function(){
+				alert("Ну написано же")
+			}
+
+			document.querySelector(".otvet4_1").onclick = function(){
+				alert("Почти")
+			}
+			document.querySelector(".otvet4_2").onclick = function(){
+				alert("Грац")
+				document.querySelector(".quest4").style.display = "none"
+				document.querySelector(".quest5").style.display = "block"
+			}
+			document.querySelector(".otvet4_3").onclick = function(){
+				alert(">:0")
+			}
+
+			document.querySelector(".otvet5_1").onclick = function(){
+				alert("Это Шон")
+			}
+			document.querySelector(".otvet5_2").onclick = function(){
+				alert("Это Госля")
+			}
+			document.querySelector(".otvet5_3").onclick = function(){
+				alert("Yeah")
+				document.querySelector(".quest5").style.display = "none"
+				document.querySelector(".quest6").style.display = "block"
+			}
+
+			document.querySelector(".otvet6_1").onclick = function(){
+				alert("Не-а, это Fall Out Boys и она никак не относится к Скотту Пилгриму")
+			}
+			document.querySelector(".otvet6_2").onclick = function(){
+				alert("Не, это LP и она никак не относится к Скотту Пилгриму")
+			}
+			document.querySelector(".otvet6_3").onclick = function(){
+				alert("Воу, верно")
+				document.querySelector(".quest6").style.display = "none"
+				document.querySelector(".end").style.display = "block"
+			}
+
+
+		</script>
+</body>
+</html>
